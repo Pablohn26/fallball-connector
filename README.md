@@ -45,6 +45,13 @@ If you run connector without SSL behind SSL-enabled reverse proxy, make sure tha
 
 ## Running in Docker
 
+Copy your config.json file to connector folder
+
+```bash
+cp config.json connector/
+```
+and then run [docker-compose](https://docs.docker.com/compose/install/)
+
 ```bash
 docker-compose up
 ```
