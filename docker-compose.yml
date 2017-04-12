@@ -3,5 +3,5 @@ connector:
   build: .
   ports:
     - "5000:5000"
-  volumes:
-    - ./connector:/connector
+#  volumes:
+#    - ./connector:/connector
